@@ -1,3 +1,5 @@
+
+
 $base-font-size: 22px;
 
 @mixin ph {
@@ -25,4 +27,5 @@ body {
 
 
 // sass-glob;
+@import "plugin/*.scss";
 @import "block/*.scss";
